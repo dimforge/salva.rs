@@ -18,7 +18,7 @@ theme:
     custom_dir: 'custom_flatly'
 site_author: 'Sébastion Crozet'
 site_favicon: img/favicon.ico
-site_url: http://salva.org
+site_url: http://salva.rs
 
 # the third-party extension mdx_math.py comes with a setup.py script
 # Thank you Dmitry Shachnev (https://github.com/mitya57/python-markdown-math)
