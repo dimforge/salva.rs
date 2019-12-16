@@ -53,7 +53,7 @@
     <td style="vertical-align:middle">
     <!-- <a href="../feature_multiple_models" id="no_highlight"> -->
     <div>
-    <big>**_Comming soon:_ multiple models to choose from**</big>
+    <big>**_Coming soon:_ multiple models to choose from**</big>
     <!-- <span class="home_dummy_link">&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></span> -->
     <br>
     Choose among **multiple different models** for pressure resolution, viscosity, surface tension, etc. and achive the best
