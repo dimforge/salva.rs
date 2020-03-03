@@ -8,12 +8,12 @@ edition = "2018"
 rand       = { version = "0.7", features = [ "stdweb" ] }
 num-traits = "0.2"
 Inflector  = "0.11"
-nalgebra   = "0.19"
-ncollide3d = "0.21"
-kiss3d     = "0.22"
-nphysics3d = "0.13"
-nphysics_testbed3d = { version = "0.7", features = [ "fluids" ] }
-salva3d = { version = "0.1", features = [ "nphysics" ] }
+nalgebra   = "0.20"
+ncollide3d = "0.22"
+kiss3d     = "0.23"
+nphysics3d = "0.14"
+nphysics_testbed3d = { version = "0.8", features = [ "fluids" ] }
+salva3d = { version = "0.2", features = [ "nphysics", "sampling" ] }
 stdweb = "0.4"
 
 [profile.release]

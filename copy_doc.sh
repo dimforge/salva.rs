@@ -1,7 +1,7 @@
 #! /bin/sh
 
 out_dir=./docs/rustdoc
-salva_dir=../rust-dev/salva
+salva_dir=../salva
 
 echo "Generating the documentation..."
 cd $salva_dir; cargo doc -p salva2d -p salva3d --no-deps

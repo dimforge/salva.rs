@@ -7,8 +7,8 @@ pages:
     - 'salva2d': rustdoc_salva2d.md
     - 'salva3d': rustdoc_salva3d.md
   - '<i class="fa fa-play"></i>&nbsp Demos':
-    - '2D demos': demo_all_examples2.md
-    - '3D demos': demo_all_examples3.md
+    - '2D demos': all_examples2.md
+    - '3D demos': all_examples3.md
 
   - '<i class="fa fa-question-circle"></i>&nbsp About':
       - 'Contributing': about.md

@@ -1,10 +1,11 @@
 #! /bin/sh
 set -x
 
-salva_dir="../rust-dev/salva"
+salva_dir="../salva"
 
 mkdir -p deploy
 mkdir -p static
+mkdir -p docs/demo
 
 demos="all_examples3"
 for demo in $demos; do

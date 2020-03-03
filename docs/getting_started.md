@@ -12,13 +12,10 @@ entities for collision shapes (spheres, cubes, triangle meshes, etc.)
 
 ```toml
 [dependencies]
-nalgebra = "0.18"
-# Choose the one you need, or both.
-ncollide2d = "0.20"
-ncollide3d = "0.20"
-# Choose the one you need, or both.
-salva2d = "0.12"
-salva3d = "0.12"
+nalgebra = "0.20"
+# Choose the one you need..
+salva2d = "0.2"
+salva3d = "0.2"
 ```
 
 Until **salva** reaches 1.0, it is strongly recommended to always use its
@@ -42,9 +39,8 @@ version = "0.0.0"
 authors = [ "You" ]
 
 [dependencies]
-nalgebra = "0.18"
-ncollide2d = "0.20"
-salva2d = "0.12"
+nalgebra = "0.20"
+salva2d = "0.2"
 
 [[bin]]
 name = "example"

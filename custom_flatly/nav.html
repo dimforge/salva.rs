@@ -44,12 +44,12 @@
               {% else %}
                 <li {% if nav_item.active %}class="active"{% endif %}>
                   {% if nav_item.title == "Home" %}
-                  <a id="noborder" href="{{ nav_item.url }}">
+                  <a id="noborder" href="{{ nav_item.url|url }}">
                     <span id="hide_small" class="navbar_icon" height = "1em"></span>
                     <span id="show_small"><i class="fa fa-home"></i> Home</span>
                   </a>
                   {% else %}
-                  <a href="{{ nav_item.url }}">
+                  <a href="{{ nav_item.url|url }}">
                     <span>{{ nav_item.title }}</span>
                   </a>
                   {% endif %}
@@ -69,17 +69,17 @@
                 </li>
                 -->
           <li id="hide_medium" {% if not page.previous_page or page.previous_page.title == "salva3d" or page.previous_page.title == "salva2d" %}class="disabled"{% endif %}>
-          <a rel="next" {% if page.previous_page and page.previous_page.title != "salva3d" and page.previous_page.title != "salva2d" %}href="{{ page.previous_page.url }}"{% endif %}>
+          <a rel="next" {% if page.previous_page and page.previous_page.title != "salva3d" and page.previous_page.title != "salva2d" %}href="{{ page.previous_page.url|url }}"{% endif %}>
             <i class="fa fa-arrow-left"></i> Previous
           </a>
           </li>
           <li id="hide_medium" {% if not page.next_page or page.next_page.title == "salva2d" or page.next_page.title == "salva3d" %}class="disabled"{% endif %}>
-          <a rel="prev" {% if page.next_page and page.next_page.title != "salva2d" and page.next_page.title != "salva3d" %}href="{{ page.next_page.url }}"{% endif %}>
+          <a rel="prev" {% if page.next_page and page.next_page.title != "salva2d" and page.next_page.title != "salva3d" %}href="{{ page.next_page.url|url }}"{% endif %}>
             Next <i class="fa fa-arrow-right"></i>
           </a>
           </li>
           <li>
-          <a href="http://users.salva.rs/c/salva">
+          <a href="http://users.nphysics.org/c/salva">
               <span class="user_forum">
                   <i class="fa  fa-users"></i> User forum
               </span>

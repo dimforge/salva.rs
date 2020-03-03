@@ -4,7 +4,7 @@
 <br/>
 <center>
 [![Join us on Discord](https://img.shields.io/discord/507548572338880513.svg?logo=discord&colorB=7289DA)](https://discord.gg/vt9DJSW)
-[![Travis.ci Status](https://travis-ci.org/rustsim/salva.svg?branch=master)](https://travis-ci.org/rustsim/salva)
+[![CircleCI](https://circleci.com/gh/rustsim/salva.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
 [![Crates.io Status](https://meritbadge.herokuapp.com/salva3d)](https://crates.io/crates/salva3d)
 [![License (3-Clause BSD)](https://img.shields.io/badge/license-BSD%203--Clause-blue.svg?style=flat)](https://opensource.org/licenses/BSD-3-Clause)
 <div style="text-align:center">
@@ -53,11 +53,11 @@
     <td style="vertical-align:middle">
     <!-- <a href="../feature_multiple_models" id="no_highlight"> -->
     <div>
-    <big>**_Coming soon:_ multiple models to choose from**</big>
+    <big>**Multiple models to choose from**</big>
     <!-- <span class="home_dummy_link">&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></span> -->
     <br>
-    Choose among **multiple different models** for pressure resolution, viscosity, surface tension, etc. and achive the best
-    performance/realism compromise for your simulation. (Currently only PBF pressure resolution and XSPH viscosity are implemented.)
+    Choose among **multiple different models** for pressure resolution, viscosity, surface tension, etc. and achieve the best
+    performance/realism compromise for your simulation.
     </div>
     <!-- </a> -->
     </td>
